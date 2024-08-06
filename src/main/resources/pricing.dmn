@@ -9,9 +9,9 @@
     <dmn:extensionElements/>
     <dmn:variable id="_86C63CC2-5B15-461E-BCC9-5F7261F1DD04" name="Previous incidents?" typeRef="boolean"/>
   </dmn:inputData>
-  <dmn:decision id="_72DFBC92-82CB-4544-A25F-E2CED29497B6" name="Base price">
+  <dmn:decision id="_72DFBC92-82CB-4544-A25F-E2CED29497B6" name="Bases prices">
     <dmn:extensionElements/>
-    <dmn:variable id="_E056EA21-897B-43D6-B592-E612A96D91A9" name="Base price" typeRef="number"/>
+    <dmn:variable id="_E056EA21-897B-43D6-B592-E612A96D91A9" name="Bases prices" typeRef="number"/>
     <dmn:informationRequirement id="_B86B975F-3825-464F-8E23-EB3217B952BF">
       <dmn:requiredInput href="#_E05602D1-1C40-4C7B-9461-CA7D21047BFC"/>
     </dmn:informationRequirement>
@@ -93,7 +93,13 @@
     <dmndi:DMNDiagram id="_DC25754E-7DF4-4ED4-A117-FDB4874D0419" name="DRG">
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_4D44AFAE-5B82-4A8D-933C-A8C1D8407F20"/>
+          <kie:ComponentWidths dmnElementRef="_4D44AFAE-5B82-4A8D-933C-A8C1D8407F20">
+            <kie:width>50</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+          </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_3D76D863-9817-412A-ABC3-BEA66DCF03D1" dmnElementRef="_3D76D863-9817-412A-ABC3-BEA66DCF03D1" isCollapsed="false">
