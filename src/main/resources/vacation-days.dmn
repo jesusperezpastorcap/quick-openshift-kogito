@@ -81,22 +81,18 @@
     <dmn:informationRequirement id="_A4DBA825-F3E3-4D4F-A93D-B1426EAE1E7F">
       <dmn:requiredInput href="#_B0FC793B-D3B9-4C47-96EC-1BFB6EB3B7C8"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_1656E006-8CCD-4DD3-8ACF-8BC8C1053C0A" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_1656E006-8CCD-4DD3-8ACF-8BC8C1053C0A" hitPolicy="COLLECT" aggregation="MAX" preferredOrientation="Rule-as-Row">
       <dmn:input id="_74DB8C39-05BE-4FC5-91DD-BA145F22F277">
-        <dmn:inputExpression id="_6A24B0E1-3D42-41D1-9767-329A9186480A" typeRef="number">
+        <dmn:inputExpression typeRef="number">
           <dmn:text>Age</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_388B9080-BC55-4C10-B2B3-5391AADA9C58">
-        <dmn:inputExpression id="_2B3A59B2-2AE4-4323-864E-9769A4A5B12E" typeRef="number">
+        <dmn:inputExpression typeRef="number">
           <dmn:text>Years of service</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_7A89E252-11F5-4CF9-B17E-8626BEB92C72">
-        <dmn:defaultOutputEntry id="_5408119C-189F-40B0-9E37-5D37FEAF66FF">
-          <dmn:text>0</dmn:text>
-        </dmn:defaultOutputEntry>
-      </dmn:output>
+      <dmn:output id="_7A89E252-11F5-4CF9-B17E-8626BEB92C72"/>
       <dmn:annotation name="annotation-1"/>
       <dmn:rule id="_072FB18E-B452-4AF3-8CA2-2A6F812B7FDF">
         <dmn:inputEntry id="_A1006A3A-A02B-448C-8E3C-44D89ADC1608">

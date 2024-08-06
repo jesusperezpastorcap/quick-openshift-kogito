@@ -126,16 +126,16 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="137" y="50" width="100" height="50"/>
+        <dc:Bounds x="138" y="50" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_B86B975F-3825-464F-8E23-EB3217B952BF" dmnElementRef="_B86B975F-3825-464F-8E23-EB3217B952BF">
         <di:waypoint x="275" y="250"/>
-        <di:waypoint x="187" y="75"/>
+        <di:waypoint x="188" y="75"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_54B137F2-4773-4455-AA37-AC8164296305" dmnElementRef="_54B137F2-4773-4455-AA37-AC8164296305">
         <di:waypoint x="100" y="250"/>
-        <di:waypoint x="187" y="75"/>
+        <di:waypoint x="188" y="75"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
