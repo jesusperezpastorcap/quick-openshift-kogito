@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_90D76F10-771D-491D-8189-6182F7C56461" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_8192BC3D-DFC7-403E-B469-D3CBB8B2D080" name="vacation-days" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_90D76F10-771D-491D-8189-6182F7C56461">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_90D76F10-771D-491D-8189-6182F7C56461" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_8192BC3D-DFC7-403E-B469-D3CBB8B2D080" name="vacation days" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_90D76F10-771D-491D-8189-6182F7C56461">
   <dmn:extensionElements/>
   <dmn:inputData id="_8ABDF271-2196-4EB4-81C2-4DACDE434EE2" name="Age">
     <dmn:extensionElements/>
@@ -83,16 +83,20 @@
     </dmn:informationRequirement>
     <dmn:decisionTable id="_1656E006-8CCD-4DD3-8ACF-8BC8C1053C0A" hitPolicy="COLLECT" aggregation="MAX" preferredOrientation="Rule-as-Row">
       <dmn:input id="_74DB8C39-05BE-4FC5-91DD-BA145F22F277">
-        <dmn:inputExpression typeRef="number">
+        <dmn:inputExpression id="_8D0B3A09-85B9-4DEE-99DD-305C1CF5FB8B" typeRef="number">
           <dmn:text>Age</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_388B9080-BC55-4C10-B2B3-5391AADA9C58">
-        <dmn:inputExpression typeRef="number">
+        <dmn:inputExpression id="_7E9FEF5D-60E9-4523-B4B0-2F7C269E0409" typeRef="number">
           <dmn:text>Years of service</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_7A89E252-11F5-4CF9-B17E-8626BEB92C72"/>
+      <dmn:output id="_7A89E252-11F5-4CF9-B17E-8626BEB92C72">
+        <dmn:defaultOutputEntry id="_EE515375-37A5-49AA-BF14-92FCFFE93183">
+          <dmn:text>0</dmn:text>
+        </dmn:defaultOutputEntry>
+      </dmn:output>
       <dmn:annotation name="annotation-1"/>
       <dmn:rule id="_072FB18E-B452-4AF3-8CA2-2A6F812B7FDF">
         <dmn:inputEntry id="_A1006A3A-A02B-448C-8E3C-44D89ADC1608">

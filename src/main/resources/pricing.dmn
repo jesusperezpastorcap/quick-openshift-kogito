@@ -29,7 +29,11 @@
           <dmn:text>Previous incidents?</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_9FB09304-6F24-4151-90DF-BF674341ED69"/>
+      <dmn:output id="_9FB09304-6F24-4151-90DF-BF674341ED69">
+        <dmn:defaultOutputEntry id="_FD10DBE8-F95F-4FE9-A8BA-A47B4C6169E8">
+          <dmn:text>0</dmn:text>
+        </dmn:defaultOutputEntry>
+      </dmn:output>
       <dmn:annotation name="comments"/>
       <dmn:rule id="_6B750674-C470-4FA0-8A48-45731745E2EF">
         <dmn:inputEntry id="_A840CFB7-37B7-4292-B1EC-200C078A97C5">
